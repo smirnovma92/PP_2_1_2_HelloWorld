@@ -12,6 +12,7 @@ public class App {
         HelloWorld helloWorld =
                 (HelloWorld) applicationContext.getBean("helloworld");
 
+
         Cat firstCat = (Cat) applicationContext.getBean("cat");
         Cat secondCat = (Cat) applicationContext.getBean("cat");
 
